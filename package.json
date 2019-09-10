@@ -1,0 +1,25 @@
+{
+  "name": "garretts-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio of current projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratherbeg0lfing17/Garretts-Portfolio.git"
+  },
+  "author": "Garrett Cypher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratherbeg0lfing17/Garretts-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ratherbeg0lfing17/Garretts-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
