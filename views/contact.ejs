@@ -1,10 +1,31 @@
 <html>
   <head>
-    <title>Contact Tom</title>
+    <title>Contact Page</title>
+    <link rel='stylesheet' type="text/css" href='/css/style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <div>
-      <form id="test-form" action="/thanks" method="POST">
+      <section id="cover">
+        <div id="cover-caption">
+          <div id="loginContainer" class="container">
+            <div class="row">
+              <div class="col-sm-6 offset-sm-3">
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="inputUsername" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  </div>
+                    <button type="button" onclick="location.href = 'dashboard.html';"  class="btn btn-block btn-primary" id="loginButton">Log In</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>   
+      <!-- <form id="test-form" action="/thanks" method="POST">
         <label for="firstName">First Name:</label>
         <input id="firstName" name="firstName" type="text">
 
@@ -15,7 +36,7 @@
         <input id="email" name="email" type="text">
 
         <button type="submit"id="submit-form">Submit</button>
-      </form>
+      </form> -->
       <script>
           const scriptURL = 'https://script.google.com/macros/s/AKfycbwTY6qmvqgBW-S9E2ph74W0ruams0k49710bfBAsfHmktbA4GF9/exec'
           const form = document.forms['test-form']

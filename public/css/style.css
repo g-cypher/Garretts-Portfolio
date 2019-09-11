@@ -13,8 +13,22 @@
 .btn-footer {
     background-color: white;
 }
+
+#cover {
+    background: slategray;
+    /* background: linear-gradient(to right, #254f9d, #73a2d7); */
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+#cover-caption {
+    width: 100%;
+}
 @media screen and (max-width: 300px) {
-  
+
 #home-jumbo{
     font-size: 180px;
 }
