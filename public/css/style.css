@@ -2,6 +2,17 @@
     background-color: slategray;
 }
 
+.my-projects-text {
+    border-bottom: 3px solid black;
+}
+
+.my-projects-paragraph {
+    max-width: 700px;
+}
+
+.btn-footer {
+    background-color: white;
+}
 @media screen and (max-width: 300px) {
   
 #home-jumbo{
