@@ -1,0 +1,11 @@
+#home-jumbo {
+    background-color: slategray;
+}
+
+@media screen and (max-width: 300px) {
+  
+#home-jumbo{
+    font-size: 180px;
+}
+
+}
