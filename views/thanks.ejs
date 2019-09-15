@@ -1,13 +1,23 @@
 <html>
   <head>
-    <title>Thanks!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks you for reaching out.</title>
+    <link rel='stylesheet' type="text/css" href='/css/style.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-      Thank you <%= contact.firstName %> <%= contact.lastName %>.
+      <div class='container-fluid text-center contact-page'>
+          <div class='col'>
+            <h1 class="lets-talk">Thank you <%= contact.firstName %> <%= contact.lastName %>.</h1>
+            <p class="lets-talk-paragraph">I will email you shortly to arrange a conversation.</p>
+          </div>
+          <div class='row justify-content-center'>
+            <div class="col-sm-2">
+              <a href="/" class="btn btn-dark btn-block">Return Home</a>
+            </div>
+          </div>
     </div>
-    <br></br>
-    <a href="/" class="btn btn-primary">Return to Home</a>
+      
   </body>
 </html>

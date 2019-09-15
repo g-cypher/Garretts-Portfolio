@@ -62,7 +62,6 @@
 }
 
 .lets-talk {
-    font-family: 'Martel Sans', sans-serif;
     font-size: 64px;
     font-weight: 800;
     letter-spacing: 3px;
@@ -81,7 +80,7 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .card-title {
@@ -116,6 +115,7 @@ body {
     height: 40px;
     border-radius: 50px;
 }
+
 @media screen and (max-width: 450px) {
     .lets-talk {
         font-size: 35px;
