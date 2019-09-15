@@ -4,42 +4,37 @@
     <title>Garrett's Portfolio</title>
     <link rel='stylesheet' type="text/css" href='/css/style.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Github</a>
-          </li>
-        </ul>
+  <body style="background-color: #fafafa;">
+    <nav class="navbar center navbar-expand-lg navbar-default fixed-top">
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Github</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="d-flex w-100 order-0">
-        <div class="w-100">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-          <a class="navbar-brand text-center" href="#">Garrett Cypher</a>
-          <span class="w-100"></span>
-        </div>
-          <span class="w-100"></span>
     </nav>
-    <div class="jumbotron pb-4 jumbotron-fluid text-white" id="home-jumbo">
+    <div class="jumbotron pb-10 jumbotron-fluid" id="home-jumbo">
       <div class="container-fluid">
-        <div class="col-md-6">
-          <h1 class="welcome-title">Welcome to my Portfolio!</h1>
-          <p class="my-3 welcome-paragraph">Thank you for taking the time to view my latest projects.  Please reach out if interested in a conversation!</p>
-          <p class="mb-0 text-white welcome-paragraph font-weight-bold">Garrett Cypher</p>
-          <p class="mb-0 text-white welcome-paragraph">515 John Muir Dr, San Francisco CA, 94132</p>
-          <p class="mb-0 text-white welcome-paragraph">Phone: (760)-994-2278</p>
-          <p class="mb-0 text-white welcome-paragraph">Email: cyph17@gmail.com</p>
+        <div class="col text-center">
+          <h1 class="welcome-title">Garrett Cypher</h1>
+          <p class="my-3 welcome-paragraph">Welcome to my portfolio and thank you for taking the time to view my latest projects. </br> If you have any questions or are interested in a conversation, please feel free to call, text, or email me at any time.</p>
+          <p class="mb-0 welcome-paragraph">515 John Muir Dr, San Francisco CA, 94132</p>
+          <p class="mb-0 welcome-paragraph">Phone: (760)-994-2278</p>
+          <p class="mb-0 welcome-paragraph">Email: cyph17@gmail.com</p>
         </div>
       </div>
     </div>
@@ -47,8 +42,8 @@
     <div class="row justify-content-center">
       <p class="text-center mb-4 ml-5 mr-5 mt-4 my-projects-paragraph">The projects you see below were created during an intensive 16-week full-stack web development bootcamp I attended in San Diego CA.  By failing fast and learning quickly, I am proud to present a few of the projects I completed over the past few months.  Thank you for your time!</p>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+    <!-- <div class="row justify-content-center">
+      <div class="col-sm-6 pb-5 d-flex align-items-stretch">
         <div class="card text-center shadow-sm">
           <div class="card-body">
             <h5 class="card-title">Cota Mobile Application - In Progress!</h5>
@@ -59,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+    <div class="col-sm-6 pb-5 d-flex align-items-stretch">
       <div class="card text-center shadow-sm">
         <div class="card-body">
           <h5 class="card-title">Passion Project using Google AMP</h5>
@@ -70,9 +65,9 @@
         </div>
       </div>
     </div>
-    </div>
+    </div> -->
 <div class="row justify-content-center">
-  <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+  <div class="col-sm-6 pb-5 d-flex align-items-stretch">
     <div class="card text-center shadow-sm">
       <div class="card-body">
         <h5 class="card-title">To-Do App</h5>
@@ -84,7 +79,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+  <div class="col-sm-6 pb-5 d-flex align-items-stretch">
     <div class="card text-center shadow-sm">
       <div class="card-body">
         <h5 class="card-title">Weather App</h5>
@@ -98,7 +93,7 @@
   </div>
 </div>
 <div class="row justify-content-center">
-  <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+  <div class="col-sm-6 pb-5 d-flex align-items-stretch">
     <div class="card text-center shadow-sm">
       <div class="card-body">
         <h5 class="card-title">Movie Finder</h5>
@@ -110,7 +105,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+  <div class="col-sm-6 pb-5 d-flex align-items-stretch">
     <div class="card text-center shadow-sm">
       <div class="card-body">
         <h5 class="card-title">Mortgage Calculator</h5>
@@ -124,7 +119,7 @@
   </div>
 </div>
 <div class="row justify-content-center">
-    <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+    <div class="col-sm-6 pb-5 d-flex align-items-stretch">
       <div class="card text-center shadow-sm">
         <div class="card-body">
           <h5 class="card-title">San Diego Top Spots</h5>
@@ -136,7 +131,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4 pb-5 d-flex align-items-stretch">
+    <div class="col-sm-6 pb-5 d-flex align-items-stretch">
       <div class="card text-center shadow-sm">
         <div class="card-body">
           <h5 class="card-title">Change Calculator</h5>
