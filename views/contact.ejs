@@ -5,11 +5,11 @@
     <link rel='stylesheet' type="text/css" href='/css/style.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="background-color: #fafafa;">
     <div>
-      <nav class="navbar center navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav class="navbar center navbar-expand-lg navbar-default fixed-top">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
@@ -27,31 +27,27 @@
           </div>
         </div>
       </nav>
-      <section id="cover">
-        <div id="cover-caption">
-          <div id="loginContainer" class="container">
-            <div class="row">
-              <div class="col-sm-6 offset-sm-3">
-                <form>
-                  <div class="form-group">
-                    <h1 class="text-center font-italic contact-label">CONTACT</h1>
-                  </div>
-                  <div class="form-group">
-                    <input id="firstName" class="form-control" name="firstName" type="text" placeholder="First Name">
-                  </div>
-                  <div class="form-group">
-                    <input id="lastName" class="form-control" name="lastName" type="text" placeholder="Last Name">
-                  </div>
-                  <div class="form-group">
-                    <input id="email" class="form-control" name="email" type="text" placeholder="Email">
-                  </div>
-                    <button class="btn btn-block bg-dark text-white contact-btn"type="submit" id="submit-form">Submit</button>
-                </form>
+      <div class='container-fluid text-center contact-page'>
+        <div class='col'>
+          <h1 class="lets-talk">LET'S TALK</h1>
+          <p class="lets-talk-paragraph">Please input your contact information and I will reach out to you shortly!</p>
+        <div class='row mt-5 justify-content-center'> 
+          
+          <form id='test-form' action="/thanks" method='POST'>
+              <div class="form-group">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
               </div>
-            </div>
-          </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+              </div>
+              <button type="submit" id="submit-form" class="btn btn-block btn-dark contact-submit-btn">Submit</button>
+          </form>
+          </div>   
         </div>
-      </section>   
+      </div>
       <!-- <form id="test-form" action="/thanks" method="POST">
         <label for="firstName">First Name:</label>
         

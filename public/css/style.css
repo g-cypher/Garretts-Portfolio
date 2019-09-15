@@ -61,6 +61,19 @@
     font-weight: 500;
 }
 
+.lets-talk {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.lets-talk-paragraph {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
 .welcome-paragraph { 
     font-family: 'Martel Sans', sans-serif;
     font-size: 16px;
@@ -71,10 +84,48 @@ body {
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 400px) {
-
-#home-jumbo{
-    font-size: 180px;
+.card-title {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
 }
 
+.card-text {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 14px;
+}
+
+.contact-page {
+    margin-top: 100px;
+}
+
+.contact-submit-btn {
+    height: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .lets-talk {
+        font-size: 35px;
+    }
+
+    .lets-talk-paragraph {
+        font-size: 14px;
+    }
+
+    #test-form {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #test-form {
+        width: 25%;
+    }
+
+    .lets-talk {
+        font-size: 64px;
+    }
+
+    .lets-talk-paragraph {
+        font-size: 16px;
+    }
 }
