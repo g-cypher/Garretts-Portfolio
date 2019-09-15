@@ -102,6 +102,20 @@ body {
     height: 40px;
 }
 
+.contact-input {
+    width: 400px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+
+#submit-form {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+}
 @media screen and (max-width: 450px) {
     .lets-talk {
         font-size: 35px;

@@ -31,21 +31,20 @@
         <div class='col'>
           <h1 class="lets-talk">LET'S TALK</h1>
           <p class="lets-talk-paragraph">Please input your contact information and I will reach out to you shortly!</p>
-
-          <!-- <div class='row mt-5 justify-content-center'>  -->
             <form id="test-form" action="/thanks" method="POST">
-              <div class='row justify-content-center'>
-              <input id="firstName" name="firstName" type="text" placeholder="First Name">
+              <div class='row mt-5 justify-content-center'>
+                <input class="contact-input" id="firstName" name="firstName" type="text" placeholder="First Name">
               </div>
-              <div class='row justify-content-center'>
-              <input id="lastName" name="lastName" type="text" placeholder="Last Name">
+              <div class='row mt-3 justify-content-center'>
+                <input class="contact-input" id="lastName" name="lastName" type="text" placeholder="Last Name">
               </div>
-              <div class='row justify-content-center'></div>
-              <input id="email" name="email" type="text" placeholder="Email">
+              <div class='row mt-3 justify-content-center'>
+                <input class="contact-input" id="email" name="email" type="text" placeholder="Email">
               </div>
-              <button type="submit"id="submit-form">Submit</button>
+              <div class='row mt-5 justify-content-center'>
+                <button type="submit" id="submit-form">Submit</button>
+              </div>
             </form>
-          <!-- </div>    -->
         </div>
       </div>
       <script>
