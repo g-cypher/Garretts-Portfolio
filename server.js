@@ -35,7 +35,3 @@ app.post('/thanks', (req, res) => {
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, console.log(`server is listening at http://localhost:${PORT}`));
-
-//app.listen(8080, () => {
-   // console.log("listening at port 8080")
-//});

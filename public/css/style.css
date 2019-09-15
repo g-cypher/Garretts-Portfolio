@@ -124,17 +124,9 @@ body {
     .lets-talk-paragraph {
         font-size: 14px;
     }
-
-    /* #test-form {
-        width: 70%;
-    } */
 }
 
 @media screen and (min-width: 700px) {
-    /* #test-form {
-        width: 25%;
-    } */
-
     .lets-talk {
         font-size: 64px;
     }
