@@ -111,15 +111,15 @@ body {
         font-size: 14px;
     }
 
-    #test-form {
+    /* #test-form {
         width: 70%;
-    }
+    } */
 }
 
 @media screen and (min-width: 700px) {
-    #test-form {
+    /* #test-form {
         width: 25%;
-    }
+    } */
 
     .lets-talk {
         font-size: 64px;
